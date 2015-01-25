@@ -12,7 +12,7 @@ github_username:  sousu
 
 # Build settings
 markdown: kramdown
-exclude: ['Rakefile','README.md','config.rb','Gemfile','Gemfile.lock','vender']
+exclude: ['Rakefile','README.md','config.rb','Gemfile','Gemfile.lock','vendor']
 
 timezone: Asia/Tokyo
 markdown_ext: "md,txt"
