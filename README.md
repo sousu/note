@@ -4,10 +4,12 @@ This is my mind note created by Jekyll.
 
 ### Install
 
+    cd ~/develop
     git clone https://github.com/sousu/note.git
-    bundle install
+    cd note
+    bundle install --path vendor/bundle
 
 ### Start
 
-    bundle exec jekyll serve --source ~/Dropbox/tools/note-content
+    bundle exec jekyll serve --source ~/Dropbox/tools/note-content --destination ~/develop/note/_site 
 
