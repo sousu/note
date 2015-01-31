@@ -11,5 +11,5 @@ This is my mind note created by Jekyll.
 
 ### Start
 
-    bundle exec jekyll serve --source ~/Dropbox/tools/note-content --destination ~/develop/note/_site 
+    bundle exec jekyll serve --source ~/Dropbox/tools/note-content --destination XXX
 
