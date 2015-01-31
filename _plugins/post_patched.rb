@@ -37,6 +37,6 @@ module Jekyll
     def permalink
       # Do nothing
     end
-	end
+  end
 end
 
