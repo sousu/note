@@ -1,6 +1,6 @@
 ## note
 
-This is my minde note created by Jekyll.
+This is my mind note created by Jekyll.
 
 start
 
