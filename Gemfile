@@ -4,5 +4,5 @@ source "https://rubygems.org"
 gem 'jekyll'
 gem 'redcarpet'  
 gem 'wdm'  
-gem 'therubyracer' if RUBY_PLATFORM.match(/Linux/)
+gem 'therubyracer' if RUBY_PLATFORM.downcase.match(/linux/)
 
