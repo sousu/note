@@ -1,5 +1,5 @@
 # -*- encoding: UTF-8 -*- 
-# 
+
 require "cgi"
 
 module Jekyll
@@ -21,5 +21,4 @@ module Jekyll
     end
   end
 end
-
 

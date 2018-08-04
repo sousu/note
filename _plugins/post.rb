@@ -34,6 +34,7 @@ module Jekyll
         :output_ext  => output_ext
       }
     end
+
     def permalink
       # Do nothing
     end
