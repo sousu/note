@@ -5,13 +5,16 @@ require 'uri'
 module Jekyll
   class Post
 
+    # Valid post name regex.
     EDITED_MATCHER = /^(.+\/)*(\d{6}) - (.*)(\.[^.]+)$/
 
     def self.valid?(name)
+      return false if name =~ /old\/.+/
       name =~ EDITED_MATCHER
     end
 
     def process(name)
+      Jekyll.logger.info "\tproc #{name}"
       m, cats, date, slug, ext = *name.match(EDITED_MATCHER)
       self.categories = (URI.escape(cats)).split('/')
       self.date = Utils.parse_date(date, "Post '#{relative_path}' does not have a valid date in the filename.")
