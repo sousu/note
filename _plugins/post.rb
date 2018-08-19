@@ -5,9 +5,10 @@ require 'uri'
 module Jekyll
   class Post
 
-    # Valid post name regex.
+    #独自命名規則に変更
     EDITED_MATCHER = /^(.+\/)*(\d{6}) - (.*)(\.[^.]+)$/
 
+    #oldを含むフォルダは取得しない
     def self.valid?(name)
       return false if name =~ /old\/.+/
       name =~ EDITED_MATCHER
