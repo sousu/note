@@ -11,5 +11,5 @@ My mind note created by Jekyll
 
 ### Start
 
-    bundle exec jekyll serve --source ~/Dropbox/tools/note-content --destination XXX
+    bundle exec jekyll serve -p _plugins -s /XXX/XXX -d /YYY/YYY
 
