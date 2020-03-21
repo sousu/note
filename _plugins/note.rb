@@ -6,7 +6,7 @@ module Jekyll
 
   class Document
     #DATE_FILENAME_MATCHER = %r!^(?>.+/)*?(\d{2,4}-\d{1,2}-\d{1,2})-([^/]*)(\.[^.]+)$!.freeze
-    DATE_FILENAME_MATCHER = %r!^.*?([^/]+)/(\d{6}) - ([^/]*)(\.[^.]+)$!.freeze
+    DATE_FILENAME_MATCHER = %r!^.*?([^/]+)/(\d{8})_([^/]*)(\.[^.]+)$!.freeze
 
     def populate_title
       if relative_path =~ DATE_FILENAME_MATCHER
