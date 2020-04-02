@@ -1,6 +1,6 @@
 ## note
 
-My mind note created by Jekyll
+My note created by Jekyll
 
 ### Install
 
